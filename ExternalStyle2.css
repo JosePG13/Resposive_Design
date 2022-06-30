@@ -4,27 +4,40 @@ A:visited, A:active {color: green}
 A:hover {text-decoration: overline; color: teal}
 	
 Body {
-	background-color: white;
+	background-color: rgb(223, 237, 152);
 	font-family: cambria;
 	color: gray	
 	}
 
-H1 {font-size: 50pt; text-align: right}
-H2 {font-size: 25pt; text-align: right}
+H1 {font-size: 40pt; text-align: center}
+H2 {font-size: 20pt; text-align: center}
 H3 {font-size: 10pt; text-align: center}
 H4 {text-align: center}
-H5 {font-size: 15pt}
+H5 {font-size: 15pt; text-align: center;}
 
-P {font-size: 10pt; font-family: monospace}
+.summary{font-size: 12.5pt; font-family: monospace; }
+
+.MissionS{
+	font-size: 15.5pt; 
+	font-family: monospace;
+	text-align: start;
+}
 
 Table {
-	width: 400px; 
+	width: 365px; 
 	font-family: monospace; 
 	color: white; 
 	background-color: green;
-	margin: .8em;
-	border-color: darkgreen}
+	margin: .4em;
+	border-color: darkgreen;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
 
+.contact{
+	text-align: center;
+}
 
 Form {
 	font-family: monospace; 
